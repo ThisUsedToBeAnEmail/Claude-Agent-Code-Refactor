@@ -4,8 +4,6 @@ lib/Claude/Agent/Code/Refactor.pm
 lib/Claude/Agent/Code/Refactor/Options.pm
 lib/Claude/Agent/Code/Refactor/Result.pm
 Makefile.PL
-META.yml                                 Module YAML meta-data (added by MakeMaker)
-META.json                                Module JSON meta-data (added by MakeMaker)
 MANIFEST
 MANIFEST.SKIP
 README

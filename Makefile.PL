@@ -10,6 +10,7 @@ my %WriteMakefileArgs = (
     ABSTRACT_FROM    => 'lib/Claude/Agent/Code/Refactor.pm',
     LICENSE          => 'artistic_2',
     MIN_PERL_VERSION => '5.020',
+    macro => { TARFLAGS   => "--format=ustar -c -v -f" },
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => '0',
     },
@@ -18,7 +19,7 @@ my %WriteMakefileArgs = (
         'Test::Exception' => '0.43',
     },
     PREREQ_PM => {
-        'Claude::Agent'               => '0.05',
+        'Claude::Agent'               => '0.09',
         'Claude::Agent::Code::Review' => '0.01',
         'Marlin'                      => '0.007000',
         'Types::Common'               => '2.0',
